@@ -78,3 +78,24 @@ Update-AzKeyVaultManagedStorageAccountKey -VaultName $keyVault.VaultName -Accoun
 
 
 git commit index.html -m "Create an empty index.html file"
+
+
+git --version
+
+git config --global user.name "Vamshee"
+git config user.name
+
+git config --global user.email "vamshee.krishna@snp.com"
+
+git config --global user.email
+
+git clone https://github.com/vamshee98/mslearn-tailspin-spacegame-web.git
+
+cd mslearn-tailspin-spacegame-web
+
+git remote -v
+git remote add upstream https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web.git
+
+dotnet build --configuration Release
+
+cd mslearn-tailspin-spacegame-web
